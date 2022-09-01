@@ -1,0 +1,111 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+.section-links {
+    width: 100%;
+    min-height: calc(100vh - 40px);
+    background-color: #FFEECC;
+}
+.contenedor-img-perfil {
+    width: 100%;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contenedor-img-perfil img {
+    width: 130px;
+    height: 130px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+}
+.contenedor-img-perfil h1 {
+    font-weight: 700;
+    color: #38383d;
+    font-size: 20px;
+}
+.contenedor-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.fav-btn {
+    background: #FFBBCC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFBBCC, #FFDDCC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFBBCC, #FFDDCC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+width: 240px;
+height: 30px;
+font-size: 16px;
+color: #38383d;
+font-family: 'Raleway', sans-serif;
+font-weight: 500;
+    border: none;
+    text-decoration: none;
+    padding-top: 12px;
+    text-align: center;
+    margin: 12px;
+}
+.fav-btn:hover {
+    background: #FFDDCC;
+    border: 1px solid ;
+    transition: 0.5s;
+}
+.contenedor-links h2 {
+    color: #38383d;
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 16px;
+}
+.contenedor-links img {
+    width: 40px;
+    margin-right: 10px;
+}
+
+/*estilos si hay segunda botonera*/
+.fav-btn-2 {
+    background: #FDD7AA;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FDD7AA, #F6FFA4, #FFA8A8);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FDD7AA, #F6FFA4, #FFA8A8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+width: 240px;
+height: 30px;
+font-size: 16px;
+color: #38383d;
+font-family: 'Raleway', sans-serif;
+font-weight: 500;
+    border: none;
+    text-decoration: none;
+    padding-top: 12px;
+    text-align: center;
+    margin: 12px;
+}
+.fav-btn-2:hover {
+    background: #B6FFCE;
+    border: 1px solid ;
+    transition: 0.5s;
+}
+
+/*estilos iconos de redes*/
+.container-redes {
+    margin-top: 20px;
+}
+.fav-btn-rrss img {
+    width: 50px;
+}
+footer {
+    background-color: #fdeff9;
+    height: 40px;
+    margin: 0;
+    width: 100%;
+}
+footer h5 {
+    margin: 0 auto;
+    text-align: center;
+    color: #38383d;
+}
+footer a {
+    color: #ff00cc;
+
+}
